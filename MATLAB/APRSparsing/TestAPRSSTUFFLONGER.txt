@@ -1,0 +1,475 @@
+Dire Wolf version 1.4
+
+Reading config file direwolf.conf
+Available audio input devices for receive (*=selected):
+    0: Microphone (Realtek Audio)
+Available audio output devices for transmit (*=selected):
+    0: Speakers / Headphones (Realtek
+Channel 0: 1200 baud, AFSK 1200 & 2200 Hz, E+, 44100 sample rate.
+Note: PTT not configured for channel 0. (Ignore this if using VOX.)
+Virtual KISS TNC is connected to COM15 side of null modem.
+Ready to accept AGW client application 0 on port 8000 ...
+Ready to accept KISS client application on port 8001 ...
+
+KR0CKT audio level = 66(35/28)   [NONE]   ||||||||_
+[0.3] KR0CKT>TWTWRQ,WIDE1-1,WIDE2-1:`2`[l"T[/`"4E}Monitering 146.520_#<0x0d>
+"146.520" in comment looks like a frequency in non-standard format.
+For most systems to recognize it, use exactly this form "146.520MHz" at beginning of comment.
+MIC-E, Human, Yaesu VX-8G, Off Duty
+N 47 47.2100, W 122 08.6300, 0 MPH, course 256, alt 151 ft, 146.520 MHz
+Monitering 146.520
+
+Digipeater ERINB audio level = 5(2/1)   [NONE]   _||||||||
+[0.4] JUPITR>ID,WA7VC-10,ERINB*,WIDE3-1,KOSMIC:JUPITR/R<0x0d>
+Unknown APRS Data Type Indicator "J"
+
+Digipeater WW7RA audio level = 39(18/10)   [NONE]   ____:||:_
+[0.5] N7GME>ID,WW7RA*,WIDE2-2:N7GME/R NONE/D DISABL/B<0x0d>
+Unknown APRS Data Type Indicator "N"
+
+Digipeater WIDE2 (probably ERINB) audio level = 36(17/9)   [NONE]   ____||:__
+[0.5] TWOODS>APOT21,WW7CH-11,WIDE1,W7PFR-1,ERINB,WIDE2*:!4645.38N/12207.08W#KD7ISZ<0x20>
+Position, DIGI (white center), Open Track
+N 46 45.3800, W 122 07.0800
+KD7ISZ<0x20>
+
+Digipeater SOMTN audio level = 67(32/21)   [NONE]   __:||||::
+[0.5] JUPITR>APN382,W7PFR-1,SOMTN*,WIDE3-1:!4741.70NB12258.05W# MT. JUPITER   K7IDX<0x0d>
+Position, OVERLAY DIGI (green star) w/overlay B, Kantronics KPC-3 rom versions
+N 47 41.7000, W 122 58.0500
+ MT. JUPITER   K7IDX
+
+Digipeater WIDE3 (probably ERINB) audio level = 69(35/23)   [NONE]   |||||||||
+[0.4] JUPITR>APN382,W7PFR-1,SOMTN,ERINB,WIDE3*:!4741.70NB12258.05W# MT. JUPITER   K7IDX<0x0d>
+Position, OVERLAY DIGI (green star) w/overlay B, Kantronics KPC-3 rom versions
+N 47 41.7000, W 122 58.0500
+ MT. JUPITER   K7IDX
+
+Digipeater KF0RY-10 audio level = 73(40/22)   [NONE]   ___||||||
+[0.5] K9JEB-2>APX204,KF0RY-10*,WIDE2-1:=4742.87N/12207.32WxPHG6230XASTIR-RaspberryPi3<0x0d>
+Position, xAPRS (Unix), Xastir, 36 W height=40 3dBi omni
+N 47 42.8700, W 122 07.3200
+XASTIR-RaspberryPi3
+
+AF7TH-9 audio level = 52(25/16)   [SINGLE]   ___:_____
+[0.3] AF7TH-9>TWUQVW,WIDE1-1,WIDE2-1:`1Vcl!3>/`"4"}Dave Snohomish, WA_$<0x0d>
+MIC-E, normal car (side view), Yaesu FT1D, Off Duty
+N 47 51.6700, W 121 58.7100, 0 MPH, course 123, alt 36 ft
+Dave Snohomish, WA
+
+Digipeater JUPITR audio level = 40(17/18)   [NONE]   |||||||__
+[0.3] AF7TH-9>TWUQVW,JUPITR*,WIDE2-1:`1Vcl!3>/`"4"}Dave Snohomish, WA_$<0x0d>
+MIC-E, normal car (side view), Yaesu FT1D, Off Duty
+N 47 51.6700, W 121 58.7100, 0 MPH, course 123, alt 36 ft
+Dave Snohomish, WA
+
+Digipeater WIDE2 (probably ERINB) audio level = 72(36/22)   [NONE]   __|||||||
+[0.5] AF7TH-9>TWUQVW,WW7RA,ERINB,WIDE2*:`1Vcl!3>/`"4"}Dave Snohomish, WA_$<0x0d>
+MIC-E, normal car (side view), Yaesu FT1D, Off Duty
+N 47 51.6700, W 121 58.7100, 0 MPH, course 123, alt 36 ft
+Dave Snohomish, WA
+
+Digipeater JUPITR audio level = 37(16/17)   [NONE]   |||||||__
+[0.3] NG7N>APRS,ERINB,WIDE1,SOMTN,JUPITR*,WIDE2:@192302z4739.10N/12224.32W_000/000g002t056r001p026P021h90b10053.DsVP
+Weather Report, WEATHER Station (blue), Generic, (obsolete. Digis should use APNxxx instead)
+N 47 39.1000, W 122 24.3200
+wind 0.0 mph, direction 0, gust 2, temperature 56, rain 0.01 in last hour, rain 0.26 in last 24 hours, rain 0.21 since midnight, humidity 90, barometer 29.69, ".DsVP"
+
+SOMTN audio level = 68(34/21)   [NONE]   __||||||:
+[0.5] SOMTN>APN391,WIDE2-1:!4719.20NS12320.73W#PHG2860/W2,WAn South Mtn KB7UVC<0x0d>
+Position, OVERLAY DIGI (green star) w/overlay S, Kantronics KPC-3 rom versions, 4 W height=2560 6dBi omni
+N 47 19.2000, W 123 20.7300
+/W2,WAn South Mtn KB7UVC
+
+Digipeater WIDE2 (probably ERINB) audio level = 70(35/23)   [SINGLE]   _____::__
+[0.5] SOMTN>APN391,ERINB,WIDE2*:!4719.20NS12320.73W#PHG2860/W2,WAn South Mtn KB7UVC<0x0d>
+Position, OVERLAY DIGI (green star) w/overlay S, Kantronics KPC-3 rom versions, 4 W height=2560 6dBi omni
+N 47 19.2000, W 123 20.7300
+/W2,WAn South Mtn KB7UVC
+
+ERINB audio level = 71(36/22)   [NONE]   _||||||||
+[0.4] ERINB>BEACON,WIDE2-2:Duckabush Valley on OIDAR HILL....K7IDX<0x0d>
+Unknown APRS Data Type Indicator "D"
+
+Digipeater WW7RA audio level = 73(36/23)   [SINGLE]   ______:__
+[0.6] AF7TH-9>TWUQWV,WW7RA*,WIDE2-1:`1VVl7M>/`"4!}Dave Snohomish, WA_$<0x0d>
+MIC-E, normal car (side view), Yaesu FT1D, Off Duty
+N 47 51.7600, W 121 58.5800, 2 MPH, course 349, alt 33 ft
+Dave Snohomish, WA
+
+Digipeater WIDE2 (probably ERINB) audio level = 75(36/21)   [NONE]   ___||||:_
+[0.5] AF7TH-9>TWUQWV,WW7RA,ERINB,WIDE2*:`1VVl7M>/`"4!}Dave Snohomish, WA_$<0x0d>
+MIC-E, normal car (side view), Yaesu FT1D, Off Duty
+N 47 51.7600, W 121 58.5800, 2 MPH, course 349, alt 33 ft
+Dave Snohomish, WA
+
+Digipeater JUPITR audio level = 38(16/17)   [NONE]   ||||||___
+[0.2] AF7TH-9>TWUQWV,WW7RA,JUPITR*,WIDE2:`1VVl7M>/`"4!}Dave Snohomish, WA_$<0x0d>
+MIC-E, normal car (side view), Yaesu FT1D, Off Duty
+N 47 51.7600, W 121 58.5800, 2 MPH, course 349, alt 33 ft
+Dave Snohomish, WA
+
+Digipeater WW7RA audio level = 74(39/24)   [NONE]   ____:|___
+[0.5] KG7DWE-1>APOT30,WW7RA*,WIDE2-1:!4741.08N/12212.44Wk121/000HE
+Position, truck, Open Track
+N 47 41.0800, W 122 12.4400, 0 MPH, course 121
+HE
+
+JUPITR audio level = 38(16/17)   [NONE]   |||||||__
+[0.3] JUPITR>APN382,WIDE3-3:!4741.70NB12258.05W# MT. JUPITER   K7IDX<0x0d>
+Position, OVERLAY DIGI (green star) w/overlay B, Kantronics KPC-3 rom versions
+N 47 41.7000, W 122 58.0500
+ MT. JUPITER   K7IDX
+
+Digipeater ERINB audio level = 72(34/22)   [NONE]   ___:||___
+[0.4] JUPITR>APN382,ERINB*,WIDE3-2:!4741.70NB12258.05W# MT. JUPITER   K7IDX<0x0d>
+Position, OVERLAY DIGI (green star) w/overlay B, Kantronics KPC-3 rom versions
+N 47 41.7000, W 122 58.0500
+ MT. JUPITER   K7IDX
+
+JUPITR audio level = 39(16/17)   [NONE]   ||||||||_
+[0.3] JUPITR>APN382,WIDE3-3:!4741.70NB12258.05W# MT. JUPITER   K7IDX<0x0d>
+Position, OVERLAY DIGI (green star) w/overlay B, Kantronics KPC-3 rom versions
+N 47 41.7000, W 122 58.0500
+ MT. JUPITER   K7IDX
+
+ERINB audio level = 70(36/22)   [NONE]   _||||||_|
+[0.4] ERINB>ID,WIDE2-2:ERINB/R<0x0d>
+Unknown APRS Data Type Indicator "E"
+
+KG7DWE-1 audio level = 54(22/17)   [NONE]   ____:||:_
+[0.5] KG7DWE-1>APOT30,WIDE1-1,WIDE2-1:!4741.08N/12212.44Wk121/000HE
+Position, truck, Open Track
+N 47 41.0800, W 122 12.4400, 0 MPH, course 121
+HE
+
+Digipeater WIDE1 (probably ERINB) audio level = 72(36/23)   [SINGLE]   ____:____
+[0.4] KG7DWE-1>APOT30,ERINB,WIDE1*,WIDE2-1:!4741.08N/12212.44Wk121/000HE
+Position, truck, Open Track
+N 47 41.0800, W 122 12.4400, 0 MPH, course 121
+HE
+
+Digipeater JUPITR audio level = 39(16/18)   [NONE]   |||||____
+[0.2] KG7DWE-1>APOT30,WW7RA,JUPITR*,WIDE2:!4741.08N/12212.44Wk121/000HE
+Position, truck, Open Track
+N 47 41.0800, W 122 12.4400, 0 MPH, course 121
+HE
+
+WW7RA audio level = 78(46/38)   [NONE]   _|||||::_
+[0.4] WW7RA>ID:WW7RA/R DISABL/B WW7RA-7/N<0x0d>
+Unknown APRS Data Type Indicator "W"
+
+Digipeater JUPITR audio level = 66(29/32)   [NONE]   _|||||||_
+[0.4] AE7TD-4>T7SYWV,JUPITR*,WIDE2-1:`2Y3n6`v/`"5%}146.520MHz  FTM-400XDR_%<0x0d>
+MIC-E, VAN, Yaesu FTM-400DR, In Service
+N 47 39.7600, W 122 01.2300, 25 MPH, course 268, alt 344 ft, 146.520 MHz
+  FTM-400XDR
+
+Digipeater WIDE2 (probably SOMTN) audio level = 78(45/37)   [NONE]   __:|||||_
+[0.4] AE7TD-4>T7SYWV,JUPITR,SOMTN,WIDE2*:`2Y3n6`v/`"5%}146.520MHz  FTM-400XDR_%<0x0d>
+MIC-E, VAN, Yaesu FTM-400DR, In Service
+N 47 39.7600, W 122 01.2300, 25 MPH, course 268, alt 344 ft, 146.520 MHz
+  FTM-400XDR
+
+Digipeater JUPITR audio level = 67(31/32)   [NONE]   ||||||___
+[0.2] TWOODS>APOT21,JUPITR*,WIDE2-2:!4645.38N/12207.08W#KD7ISZ<0x20>
+Position, DIGI (white center), Open Track
+N 46 45.3800, W 122 07.0800
+KD7ISZ<0x20>
+
+Digipeater WIDE2 (probably ERINB) audio level = 79(45/36)   [NONE]   __||||||_
+[0.4] TWOODS>APOT21,JUPITR,WA7VC-10,ERINB,WIDE2*:!4645.38N/12207.08W#KD7ISZ<0x20>
+Position, DIGI (white center), Open Track
+N 46 45.3800, W 122 07.0800
+KD7ISZ<0x20>
+
+JUPITR audio level = 66(29/32)   [NONE]   ||||||___
+[0.2] JUPITR>APN382,WIDE3-3:!4741.70NB12258.05W# MT. JUPITER   K7IDX<0x0d>
+Position, OVERLAY DIGI (green star) w/overlay B, Kantronics KPC-3 rom versions
+N 47 41.7000, W 122 58.0500
+ MT. JUPITER   K7IDX
+
+Digipeater ERINB audio level = 79(46/36)   [NONE]   __:||||:_
+[0.4] JUPITR>APN382,ERINB*,WIDE3-2:!4741.70NB12258.05W# MT. JUPITER   K7IDX<0x0d>
+Position, OVERLAY DIGI (green star) w/overlay B, Kantronics KPC-3 rom versions
+N 47 41.7000, W 122 58.0500
+ MT. JUPITER   K7IDX
+
+KR0CKT audio level = 40(22/16)   [NONE]   ||||||||_
+[0.3] KR0CKT>TWTWRR,WIDE1-1,WIDE2-1:`2`\l-&[/`"4)}Monitering 146.520_#<0x0d>
+"146.520" in comment looks like a frequency in non-standard format.
+For most systems to recognize it, use exactly this form "146.520MHz" at beginning of comment.
+MIC-E, Human, Yaesu VX-8G, Off Duty
+N 47 47.2200, W 122 08.6400, 1 MPH, course 310, alt 59 ft, 146.520 MHz
+Monitering 146.520
+
+Digipeater JUPITR audio level = 67(30/33)   [NONE]   |||||||__
+[0.3] N7NIX-4>T8RYUR,JUPITR*:`2R1p{3k/"6E}
+MIC-E, truck, Unknown manufacturer, In Service
+N 48 29.5200, W 122 54.2100, 56 MPH, course 123, alt 748 ft
+
+Digipeater JUPITR audio level = 67(29/32)   [NONE]   |||||||__
+[0.3] N7NIX-4>APUDR1,JUPITR*:>http://nwdigitalradio.com/
+Status Report, BIKE, NW Digital Radio's UDR (APRS/Dstar)
+http://nwdigitalradio.com/
+
+KG7DWE-1 audio level = 74(38/34)   [NONE]   ____||:__
+[0.5] KG7DWE-1>APOT30,WIDE1-1,WIDE2-1:!4741.08N/12212.45WkHE
+Position, truck, Open Track
+N 47 41.0800, W 122 12.4500
+HE
+
+Digipeater SOMTN audio level = 78(45/36)   [NONE]   _:||||___
+[0.3] DGDAVE>ID,SOMTN*,WIDE2-1:>DIGI_NED: digipeater W7AUW in S.E. Hoquiam, Wa.<0x0d>
+Status Report
+DIGI_NED: digipeater W7AUW in S.E. Hoquiam, Wa.
+
+Digipeater JUPITR audio level = 66(30/33)   [NONE]   |||||_|__
+[0.2] KA7RRA-9>T8PQVR,JUPITR*,WIDE2-1:`2Ysn{qv/]"4U}=<0x0d>
+MIC-E, VAN, Kenwood TM-D710, In Service
+N 48 01.6200, W 122 01.8700, 33 MPH, course 185, alt 203 ft
+
+Digipeater WIDE2 (probably SOMTN) audio level = 78(45/36)   [NONE]   ||||||||_
+[0.3] KA7RRA-9>T8PQVR,JUPITR,SOMTN,WIDE2*:`2Ysn{qv/]"4U}=<0x0d>
+MIC-E, VAN, Kenwood TM-D710, In Service
+N 48 01.6200, W 122 01.8700, 33 MPH, course 185, alt 203 ft
+
+Digipeater JUPITR audio level = 66(30/32)   [NONE]   |||||||__
+[0.3] VA7CBN-9>TXTQVR,LDYSMH,WIDE1,JUPITR*,WIDE2:`3@Ko**k/]"4u}=<0x0d>
+MIC-E, truck, Kenwood TM-D710, Off Duty
+N 48 41.6200, W 123 36.4700, 36 MPH, course 14, alt 308 ft
+
+W7KKX audio level = 74(42/34)   [NONE]   _|||||___
+[0.3] W7KKX>APRX29,WIDE1-1:!4743.75N/12214.22W_000/000g000t055r...p...P003h80b10048
+Weather Report, WEATHER Station (blue), <39 for OH2MQK's igate
+N 47 43.7500, W 122 14.2200
+wind 0.0 mph, direction 0, gust 0, temperature 55, rain 0.03 since midnight, humidity 80, barometer 29.68, ""
+
+ERINB audio level = 79(46/37)   [NONE]   |||||||__
+[0.3] ERINB>APN383,WIDE3-3:$ULTW00800009020C001D2761000190380001----010503C500110031<0x0d><0x0a>
+Ultimeter, Kantronics KPC-3 rom versions
+
+KG7DWE-1 audio level = 74(40/29)   [NONE]   ____|||__
+[0.5] KG7DWE-1>APOT30,WIDE1-1,WIDE2-1:!4741.08N/12212.45Wk121/000HE
+Position, truck, Open Track
+N 47 41.0800, W 122 12.4500, 0 MPH, course 121
+HE
+
+KF0RY-10 audio level = 79(50/35)   [NONE]   __||||||_
+[0.4] KF0RY-10>APRX27,TRACE1-1:!4738.48NT12207.09W#aprx RaspberryPi ce001@hotmail.com
+Position, OVERLAY DIGI (green star) w/overlay T, <39 for OH2MQK's igate
+N 47 38.4800, W 122 07.0900
+aprx RaspberryPi ce001@hotmail.com
+
+Digipeater JUPITR audio level = 66(30/32)   [NONE]   ||||||||_
+[0.3] AE7TD-4>T7TPPT,JUPITR*,WIDE2-1:`2ZDoJsv/`"4^}146.520MHz  FTM-400XDR_%<0x0d>
+MIC-E, VAN, Yaesu FTM-400DR, In Service
+N 47 40.0400, W 122 02.4000, 39 MPH, course 287, alt 233 ft, 146.520 MHz
+  FTM-400XDR
+
+Digipeater WIDE2 (probably SOMTN) audio level = 77(45/37)   [SINGLE]   ____:____
+[0.4] AE7TD-4>T7TPPT,JUPITR,SOMTN,WIDE2*:`2ZDoJsv/`"4^}146.520MHz  FTM-400XDR_%<0x0d>
+MIC-E, VAN, Yaesu FTM-400DR, In Service
+N 47 40.0400, W 122 02.4000, 39 MPH, course 287, alt 233 ft, 146.520 MHz
+  FTM-400XDR
+
+Digipeater JUPITR audio level = 67(30/32)   [NONE]   ||||||_|_
+[0.3] VA7CBN-9>TXTRQP,LDYSMH,WIDE1,JUPITR*,WIDE2:`3@BoKEk/]"4o}=<0x0d>
+MIC-E, truck, Kenwood TM-D710, Off Duty
+N 48 42.1000, W 123 36.3800, 39 MPH, course 341, alt 289 ft
+
+Digipeater SOMTN audio level = 78(45/36)   [NONE]   ____|||__
+[0.5] NG7N>APRS,ERINB,WIDE1,SOMTN*,WIDE2-1:>WX - Magnolia Bluff - Seattle, WA
+Status Report, Generic, (obsolete. Digis should use APNxxx instead)
+WX - Magnolia Bluff - Seattle, WA
+
+Digipeater JUPITR audio level = 68(30/32)   [NONE]   ||||||||_
+[0.3] NG7N>APRS,ERINB,WIDE1,SOMTN,JUPITR*,WIDE2:>WX - Magnolia Bluff - Seattle, WA
+Status Report, Generic, (obsolete. Digis should use APNxxx instead)
+WX - Magnolia Bluff - Seattle, WA
+
+Digipeater WIDE2 (probably SOMTN) audio level = 76(44/38)   [NONE]   __:||:___
+[0.3] MEGLER>APN382,NICOLI,SOMTN,WIDE2*:!4617.16NS12353.83W#_PHG5768/W2,WAn,Chinook WIDE-KB7ADO<0x0d>
+Position, OVERLAY DIGI (green star) w/overlay S, Kantronics KPC-3 rom versions
+N 46 17.1600, W 123 53.8300
+_PHG5768/W2,WAn,Chinook WIDE-KB7ADO
+
+Digipeater WIDE1 (probably ERINB) audio level = 79(46/36)   [NONE]   ___||||__
+[0.4] NG7N>APRS,ERINB,WIDE1*,WIDE2-2:@192307z4739.10N/12224.32W_000/000g003t056r001p026P021h90b10053.DsVP
+Weather Report, WEATHER Station (blue), Generic, (obsolete. Digis should use APNxxx instead)
+N 47 39.1000, W 122 24.3200
+wind 0.0 mph, direction 0, gust 3, temperature 56, rain 0.01 in last hour, rain 0.26 in last 24 hours, rain 0.21 since midnight, humidity 90, barometer 29.69, ".DsVP"
+
+Digipeater JUPITR audio level = 66(30/33)   [SINGLE]   _____:___
+[0.5] NG7N>APRS,ERINB,WIDE1,JUPITR*,WIDE2-1:@192307z4739.10N/12224.32W_000/000g003t056r001p026P021h90b10053.DsVP
+Weather Report, WEATHER Station (blue), Generic, (obsolete. Digis should use APNxxx instead)
+N 47 39.1000, W 122 24.3200
+wind 0.0 mph, direction 0, gust 3, temperature 56, rain 0.01 in last hour, rain 0.26 in last 24 hours, rain 0.21 since midnight, humidity 90, barometer 29.69, ".DsVP"
+
+Digipeater WIDE2 (probably ERINB) audio level = 78(46/37)   [NONE]   _|||||||_
+[0.4] WA7BVQ-1>TWSQWS,WSEA,WIDE1,ERINB,WIDE2*:'22%l <0x1c>-/]wSeattle<0x0d>
+MIC-E, House, Kenwood TM-D700, Off Duty
+N 47 31.7300, W 122 22.0900, 0 MPH
+wSeattle
+
+Digipeater JUPITR audio level = 66(30/32)   [NONE]   |||||||__
+[0.3] WA2BFW-9>T7TXWU,JUPITR*,WIDE2-1:`2]In4}>/`"4w}147.080MHz T110 +060 commuting and scanming_%<0x0d>
+MIC-E, normal car (side view), Yaesu FTM-400DR, In Service
+N 47 48.7500, W 122 05.4500, 25 MPH, course 97, alt 315 ft, 147.080 MHz, +600k, PL 110.9
+ commuting and scanming
+
+Digipeater WIDE2 (probably SOMTN) audio level = 77(45/36)   [NONE]   ___||||__
+[0.4] WA2BFW-9>T7TXWU,JUPITR,SOMTN,WIDE2*:`2]In4}>/`"4w}147.080MHz T110 +060 commuting and scanming_%<0x0d>
+MIC-E, normal car (side view), Yaesu FTM-400DR, In Service
+N 47 48.7500, W 122 05.4500, 25 MPH, course 97, alt 315 ft, 147.080 MHz, +600k, PL 110.9
+ commuting and scanming
+
+Digipeater JUPITR audio level = 70(33/32)   [NONE]   ||||||___
+[0.2] TWOODS>APOT21,JUPITR*,WIDE2-2:!4645.38N/12207.08W#KD7ISZ<0x20>
+Position, DIGI (white center), Open Track
+N 46 45.3800, W 122 07.0800
+KD7ISZ<0x20>
+
+Digipeater JUPITR audio level = 70(34/32)   [NONE]   |||||||__
+[0.3] TWOODS>APOT21,WW7CH-11,WIDE1,JUPITR*,WIDE2-1:!4645.38N/12207.08W#KD7ISZ<0x20>
+Position, DIGI (white center), Open Track
+N 46 45.3800, W 122 07.0800
+KD7ISZ<0x20>
+
+Digipeater WIDE2 (probably ERINB) audio level = 79(45/37)   [NONE]   ___|||||_
+[0.5] TWOODS>APOT21,WW7CH-11,WIDE1,JUPITR,ERINB,WIDE2*:!4645.38N/12207.08W#KD7ISZ<0x20>
+Position, DIGI (white center), Open Track
+N 46 45.3800, W 122 07.0800
+KD7ISZ<0x20>
+
+Digipeater JUPITR audio level = 70(33/32)   [NONE]   :||||||__
+[0.3] AE7TD-4>T7TPRV,JUPITR*,WIDE2-1:`2[<orpv/`"4]}146.520MHz  FTM-400XDR_%<0x0d>
+MIC-E, VAN, Yaesu FTM-400DR, In Service
+N 47 40.2600, W 122 03.3200, 44 MPH, course 284, alt 230 ft, 146.520 MHz
+  FTM-400XDR
+
+Digipeater WIDE2 (probably SOMTN) audio level = 76(43/38)   [NONE]   ___|||___
+[0.4] AE7TD-4>T7TPRV,JUPITR,SOMTN,WIDE2*:`2[<orpv/`"4]}146.520MHz  FTM-400XDR_%<0x0d>
+MIC-E, VAN, Yaesu FTM-400DR, In Service
+N 47 40.2600, W 122 03.3200, 44 MPH, course 284, alt 230 ft, 146.520 MHz
+  FTM-400XDR
+
+Digipeater SOMTN audio level = 78(45/36)   [NONE]   ||||||||:
+[0.4] KB7OPQ>APOT21,SOMTN*,WIDE1-2:>100113zUI-View32 V2.03<0x0d>
+Status Report, Open Track
+UI-View32 V2.03
+
+W7KKX-3 audio level = 75(45/33)   [NONE]   _||||||||
+[0.4] W7KKX-3>APRX29,WIDE1-1:!4743.75N212214.22W2#PHG3185 FinnHill APRX 1200. http://w7kkx.com/wx
+Position,  w/overlay 2, <39 for OH2MQK's igate
+N 47 43.7500, W 122 14.2200
+#PHG3185 FinnHill APRX 1200. http://w7kkx.com/wx
+
+Digipeater MICEC audio level = 78(50/41)   [NONE]   __||||||_
+[0.4] W7KKX-3>APRX29,MICEC*:!4743.75N212214.22W2#PHG3185 FinnHill APRX 1200. http://w7kkx.com/wx
+Position,  w/overlay 2, <39 for OH2MQK's igate
+N 47 43.7500, W 122 14.2200
+#PHG3185 FinnHill APRX 1200. http://w7kkx.com/wx
+
+Digipeater ERINB audio level = 77(45/38)   [NONE]   ||||||||_
+[0.3] WW7RA>APRS,ERINB*,WIDE2-1:!4732.88N/12248.45W_>WW7RA Digi & Remote Wx Sta<0x0d>
+Didn't find wind direction in form c999.
+Didn't find wind speed in form s999.
+Didn't find wind gust in form g999.
+Didn't find temperature in form t999.
+Weather Report, WEATHER Station (blue), Generic, (obsolete. Digis should use APNxxx instead)
+N 47 32.8800, W 122 48.4500
+, ">WW7RA Digi & Remote Wx Sta"
+
+Digipeater WW7RA audio level = 79(47/37)   [NONE]   ____||:__
+[0.5] KG7DWE-1>APOT30,WW7RA*,WIDE2-1:!4741.08N/12212.45Wk121/000HE
+Position, truck, Open Track
+N 47 41.0800, W 122 12.4500, 0 MPH, course 121
+HE
+
+Digipeater WIDE1 (probably ERINB) audio level = 77(45/38)   [NONE]   __|||||__
+[0.4] AE7TD-4>T7TPRX,ERINB,WIDE1*,WIDE2-1:`2[dlTXv/`"4d}146.520MHz  FTM-400XDR_%<0x0d>
+MIC-E, VAN, Yaesu FTM-400DR, In Service
+N 47 40.2800, W 122 03.7200, 6 MPH, course 260, alt 253 ft, 146.520 MHz
+  FTM-400XDR
+
+Digipeater JUPITR audio level = 69(31/32)   [NONE]   |||||||__
+[0.3] KA7RRA-9>T8PPSX,JUPITR*,WIDE2-1:`2Y|oSFv/]"4G}=<0x0d>
+MIC-E, VAN, Kenwood TM-D710, In Service
+N 48 00.3800, W 122 01.9600, 40 MPH, course 142, alt 157 ft
+
+Digipeater WIDE2 (probably SOMTN) audio level = 78(45/36)   [NONE]   ___:||||_
+[0.5] KA7RRA-9>T8PPSX,JUPITR,SOMTN,WIDE2*:`2Y|oSFv/]"4G}=<0x0d>
+MIC-E, VAN, Kenwood TM-D710, In Service
+N 48 00.3800, W 122 01.9600, 40 MPH, course 142, alt 157 ft
+
+Digipeater JUPITR audio level = 66(30/31)   [NONE]   ||||||___
+[0.2] N7ER-10>APU25N,JUPITR*,WIDE2:}KA7RRA-9>T8PPSX,TCPIP,N7ER-10*:`2Y|oSFv/]"4G}=<0x0d>
+Third Party Header, motorcycle, UIview 32 bit apps
+
+Digipeater JUPITR audio level = 66(30/32)   [NONE]   |||||||__
+[0.3] N7OBI-9>T8PPQQ,JUPITR*,WIDE2-1:`2^7l?8>/`"5$}147.180MHz n7obi@comcast.net 147.18 103.5 _%<0x0d>
+"103.5" in comment looks like it might be a CTCSS tone in non-standard format.
+For most systems to recognize it, use exactly this form "T103" at near beginning of comment, after any frequency.
+MIC-E, normal car (side view), Yaesu FTM-400DR, In Service
+N 48 00.1100, W 122 06.2700, 3 MPH, course 128, alt 341 ft, 147.180 MHz, PL 103.5
+ n7obi@comcast.net 147.18 103.5<0x20>
+
+Digipeater WIDE2 (probably SOMTN) audio level = 76(44/37)   [NONE]   _|||||:__
+[0.3] N7OBI-9>T8PPQQ,JUPITR,SOMTN,WIDE2*:`2^7l?8>/`"5$}147.180MHz n7obi@comcast.net 147.18 103.5 _%<0x0d>
+"103.5" in comment looks like it might be a CTCSS tone in non-standard format.
+For most systems to recognize it, use exactly this form "T103" at near beginning of comment, after any frequency.
+MIC-E, normal car (side view), Yaesu FTM-400DR, In Service
+N 48 00.1100, W 122 06.2700, 3 MPH, course 128, alt 341 ft, 147.180 MHz, PL 103.5
+ n7obi@comcast.net 147.18 103.5<0x20>
+
+Digipeater JUPITR audio level = 68(30/33)   [NONE]   |||||||__
+[0.3] N7OBI-9>T8PPQQ,N7ER-10,JUPITR*,WIDE2:`2^7l?8>/`"5$}147.180MHz n7obi@comcast.net 147.18 103.5 _%<0x0d>
+"103.5" in comment looks like it might be a CTCSS tone in non-standard format.
+For most systems to recognize it, use exactly this form "T103" at near beginning of comment, after any frequency.
+MIC-E, normal car (side view), Yaesu FTM-400DR, In Service
+N 48 00.1100, W 122 06.2700, 3 MPH, course 128, alt 341 ft, 147.180 MHz, PL 103.5
+ n7obi@comcast.net 147.18 103.5<0x20>
+
+Digipeater WIDE2 (probably SOMTN) audio level = 76(44/37)   [NONE]   ____|||__
+[0.5] KI7ADJ-1>APRS,NICOLI,SOMTN,WIDE2*::NICOLI   :?APRSD{D0002<0x00>
+'nul' character found in Information part.  This should never happen.
+It seems that KI7ADJ-1 is transmitting with defective software.
+Directed Station Query, Ambulance, Generic, (obsolete. Digis should use APNxxx instead)
+
+Digipeater JUPITR audio level = 67(30/33)   [NONE]   ||||||||_
+[0.3] K6GEC-7>TWTPRT,JUPITR*,WIDE2-1:`2/8m*+>/`"4r}Glen Campbell +12104469990 glen@k6gec.com_#<0x0d>
+MIC-E, normal car (side view), Yaesu VX-8G, Off Duty
+N 47 40.2400, W 122 19.2800, 13 MPH, course 15, alt 299 ft
+Glen Campbell +12104469990 glen@k6gec.com
+
+Digipeater WIDE2 (probably SOMTN) audio level = 76(44/37)   [NONE]   _|||||:__
+[0.3] K6GEC-7>TWTPRT,JUPITR,SOMTN,WIDE2*:`2/8m*+>/`"4r}Glen Campbell +12104469990 glen@k6gec.com_#<0x0d>
+MIC-E, normal car (side view), Yaesu VX-8G, Off Duty
+N 47 40.2400, W 122 19.2800, 13 MPH, course 15, alt 299 ft
+Glen Campbell +12104469990 glen@k6gec.com
+
+KR0CKT audio level = 39(21/16)   [NONE]   _||||||__
+[0.3] KR0CKT>TWTWRQ,WIDE1-1,WIDE2-1:`2`[l#<0x1e>[/`"4=}Monitering 146.520_#<0x0d>
+"146.520" in comment looks like a frequency in non-standard format.
+For most systems to recognize it, use exactly this form "146.520MHz" at beginning of comment.
+MIC-E, Human, Yaesu VX-8G, Off Duty
+N 47 47.2100, W 122 08.6300, 0 MPH, course 302, alt 125 ft, 146.520 MHz
+Monitering 146.520
+
+Digipeater JUPITR audio level = 67(30/32)   [NONE]   ||||||||_
+[0.3] K6GEC-7>TWTPUR,JUPITR*,WIDE2-1:`2/3mp!>/`"4k}Glen Campbell +12104469990 glen@k6gec.com_#<0x0d>
+MIC-E, normal car (side view), Yaesu VX-8G, Off Duty
+N 47 40.5200, W 122 19.2300, 21 MPH, course 5, alt 276 ft
+Glen Campbell +12104469990 glen@k6gec.com
+
+Digipeater WIDE2 (probably SOMTN) audio level = 78(45/37)   [NONE]   ::||||||_
+[0.3] K6GEC-7>TWTPUR,JUPITR,SOMTN,WIDE2*:`2/3mp!>/`"4k}Glen Campbell +12104469990 glen@k6gec.com_#<0x0d>
+MIC-E, normal car (side view), Yaesu VX-8G, Off Duty
+N 47 40.5200, W 122 19.2300, 21 MPH, course 5, alt 276 ft
+Glen Campbell +12104469990 glen@k6gec.com
+
+Digipeater JUPITR audio level = 65(31/31)   [NONE]   _||||||:_
+[0.4] VA7HXD>APWW10,JUPITR*,WIDE2:>200004zAPRSISCE/32
+Status Report, APRSISCE win32 version
+APRSISCE/32

@@ -1,0 +1,37 @@
+Dire Wolf version 1.4
+
+Reading config file direwolf.conf
+Available audio input devices for receive (*=selected):
+    0: Microphone (Realtek Audio)
+Available audio output devices for transmit (*=selected):
+    0: Speakers / Headphones (Realtek
+Channel 0: 1200 baud, AFSK 1200 & 2200 Hz, E+, 44100 sample rate.
+Note: PTT not configured for channel 0. (Ignore this if using VOX.)
+Virtual KISS TNC is connected to COM15 side of null modem.
+Ready to accept AGW client application 0 on port 8000 ...
+Ready to accept KISS client application on port 8001 ...
+
+KR0CKT audio level = 66(37/27)   [NONE]   ||||||||_
+[0.3] KR0CKT>TWTWRQ,WIDE1-1,WIDE2-1:`2`\l!F[/`"4C}Monitering 146.520_#<0x0d>
+"146.520" in comment looks like a frequency in non-standard format.
+For most systems to recognize it, use exactly this form "146.520MHz" at beginning of comment.
+MIC-E, Human, Yaesu VX-8G, Off Duty
+N 47 47.2100, W 122 08.6400, 0 MPH, course 142, alt 144 ft, 146.520 MHz
+Monitering 146.520
+
+KR0CKT audio level = 65(36/28)   [NONE]   ||||||___
+[0.2] KR0CKT>TWTWRP,WIDE1-1,WIDE2-1:`2`[l!U[/`"4@}Monitering 146.520_#<0x0d>
+"146.520" in comment looks like a frequency in non-standard format.
+For most systems to recognize it, use exactly this form "146.520MHz" at beginning of comment.
+MIC-E, Human, Yaesu VX-8G, Off Duty
+N 47 47.2000, W 122 08.6300, 0 MPH, course 157, alt 135 ft, 146.520 MHz
+Monitering 146.520
+
+Connected to AGW client application 0 ...
+
+Ready to accept AGW client application 1 on port 8000 ...
+
+Invalid message from AGW client application 0.
+Data Length of 774975032 is out of range.
+Closing connection.
+

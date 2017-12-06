@@ -1,0 +1,23 @@
+KR0CKT audio level = 66(35/28)   [NONE]   ||||||||_
+[0.3] KR0CKT>TWTWRQ,WIDE1-1,WIDE2-1:`2`[l"T[/`"4E}Monitering 146.520_#<0x0d>
+MIC-E, Human, Yaesu VX-8G, Off Duty
+N 47 47.2100, W 122 08.6300, 0 MPH, course 256, alt 151 ft, 146.520 MHz
+Monitering 146.520
+
+KR0CKT audio level = 66(35/28)   [NONE]   ||||||||_
+[0.3] KR0CKT>TWTWRQ,WIDE1-1,WIDE2-1:`2`[l"T[/`"4E}Monitering 146.520_#<0x0d>
+MIC-E, Human, Yaesu VX-8G, Off Duty
+N 47 47.2102, W 122 08.6301, 0 MPH, course 256, alt 152 ft, 146.520 MHz
+Monitering 146.520
+
+KR0CKT audio level = 66(35/28)   [NONE]   ||||||||_
+[0.3] KR0CKT>TWTWRQ,WIDE1-1,WIDE2-1:`2`[l"T[/`"4E}Monitering 146.520_#<0x0d>
+MIC-E, Human, Yaesu VX-8G, Off Duty
+N 47 47.2109, W 122 08.6302, 0 MPH, course 256, alt 153 ft, 146.520 MHz
+Monitering 146.520
+
+KR0CKT audio level = 66(35/28)   [NONE]   ||||||||_
+[0.3] KR0CKT>TWTWRQ,WIDE1-1,WIDE2-1:`2`[l"T[/`"4E}Monitering 146.520_#<0x0d>
+MIC-E, Human, Yaesu VX-8G, Off Duty
+N 47 47.2134, W 122 08.6304, 0 MPH, course 256, alt 155 ft, 146.520 MHz
+Monitering 146.520

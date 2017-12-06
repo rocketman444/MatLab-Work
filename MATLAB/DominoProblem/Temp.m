@@ -1,0 +1,1 @@
+mu_static*mass*gravity
